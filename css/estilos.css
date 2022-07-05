@@ -1,0 +1,84 @@
+@font-face {font-family: 'social';src: url('../fonts/SocialMedia-ZxpB.ttf');}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+html{
+   font-size: 16px;
+}
+body{
+  
+   font-family: 'Montserrat', sans-serif;
+}
+p{
+   font-family: 'Montserrat', sans-serif;
+}
+
+header, .container, .container-fluid, footer{
+    min-width: 200px;
+}
+
+#form{
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+ #text_primary{
+	font-size: 0.6rem;
+ }
+
+ #title {
+	font-size: 1rem;
+ }
+
+ #footer{
+	bottom: -90px;
+ }
+ 
+ #a_social a{
+	color: white;
+	font-family: social, cursive;
+}
+
+#ltrPequ{
+	font-size: 0.5rem;
+}
+
+#text_primary_cel{
+	top: 15px;
+}
+@media screen and (min-width: 545px) {
+	#title{
+		font-size: 1.4rem;
+	 }
+
+	 #text_primary_cel{
+		top: 100px;
+	}
+	 
+	
+}
+@media screen and (min-width: 650px) {
+
+	 #text_primary{
+		font-size: 0.9rem;
+	 }
+	 #ltrPequ{
+		font-size: 0.8rem;
+	}
+}
+
+
+ @media screen and (min-width: 700px) {
+	#title{
+		font-size: 1.8rem;
+	 }
+	 
+	 #text_primary{
+		font-size: 1.1rem;
+	 }
+}
+
